@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Checkpoints and outputs
+ckpts/
+outputs/
+results/
+wandb/
+logs/
+
+# Data (too large for git)
+dataset/
+
+# Model checkpoints
+*.pt
+*.pth
